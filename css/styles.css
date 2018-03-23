@@ -51,5 +51,9 @@ body {
   margin-bottom: 3%;
   font-size: 15pt;
   color: red;
+}
 
+.conclusion {
+  font-size: 8pt;
+  font-family: sans-serif;
 }
