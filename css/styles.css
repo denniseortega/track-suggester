@@ -1,0 +1,22 @@
+body {
+  background-color: #E1F1EF;
+}
+
+.container h1 {
+  font-family: helvetica;
+  text-align: center;
+  margin-bottom: 3%;
+}
+
+.container h4 {
+  margin-bottom: 2%;
+}
+
+.label for {
+  font-size: 25pt;
+}
+
+.labels {
+  color: #72242B;
+  font-size: 10pt;
+}
