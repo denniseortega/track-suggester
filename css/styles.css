@@ -33,3 +33,7 @@ body {
   width: 20%;
 
 }
+
+.generate-language div {
+  display: none;
+}
