@@ -12,7 +12,7 @@ _A site where the user answers a few questions about themselves and languages th
 
 * _A web browser of your choice._
 * _You may clone and download the Track Suggester from GitHub._
-* _You may also view the site by going to denniseortega.github.io/track-suggester
+* _You may also view the site by going to denniseortega.github.io/track-suggester_
 
 ## Known Bugs
 
