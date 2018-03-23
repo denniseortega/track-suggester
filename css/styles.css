@@ -1,22 +1,35 @@
 body {
-  background-color: #E1F1EF;
+  background-color: #ffffff;
 }
 
 .container h1 {
   font-family: helvetica;
   text-align: center;
   margin-bottom: 3%;
+  font-size: 18pt;
 }
 
 .container h4 {
   margin-bottom: 2%;
 }
 
-.label for {
-  font-size: 25pt;
+.form-control-name {
+  width: 20%;
 }
 
 .labels {
-  color: #72242B;
-  font-size: 10pt;
+  font-weight: 300;
+}
+
+#firstname, #lastname {
+  text-align: left;
+}
+
+.information h4 {
+  text-align:left;
+}
+
+.form-control-develpment {
+  width: 20%;
+
 }
