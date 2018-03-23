@@ -2,6 +2,10 @@ body {
   background-color: #ffffff;
 }
 
+.red {
+  color: red;
+}
+
 .container h1 {
   font-family: helvetica;
   text-align: center;
@@ -11,6 +15,7 @@ body {
 
 .container h4 {
   margin-bottom: 2%;
+  font-family: sans-serif;
 }
 
 .form-control-name {
@@ -19,14 +24,16 @@ body {
 
 .labels {
   font-weight: 300;
+  font-family: sans-serif;
 }
 
 #firstname, #lastname {
   text-align: left;
 }
 
-.information h4 {
+.information {
   text-align:left;
+  font-family: sans-serif;
 }
 
 .form-control-develpment {
