@@ -12,7 +12,7 @@
     <div class="container">
       <h4>Answer a few questions to find out what language you should learn!</h4>
 
-      <form>
+      <form id="survey">
         <div class="form-group">
           <label for="firstname" class="labels">First Name <span class="red">*</span></label>
           <br>
@@ -34,77 +34,66 @@
         <div class="form-group">
           <label for="development" class="labels">Do you want to focus on <strong>front-end</strong> or <strong>back-end development</strong>? <span class="red">*</span></label>
           <br>
-          <select class="form-control-development" id="development">
-            <option>Front-End</option>
-            <option>Back-End</option>
+          <select class="form-control" id="front">
+            <option>front-end</option>
+            <option>back-end</option>
           </select>
         </div>
         <div class="form-group">
           <label for="languages" class="labels">What languages are you most interested in learning <span class="red">*<span></label>
-          <select multiple class="form-control" id="languages">
+          <select multiple class="form-control" id="language">
             <option>C#</option>
             <option>JAVA</option>
             <option>PHP</option>
             <option>Ruby</option>
           </select>
         </div>
-      </form>
-
-      <form>
-        <p>Do you like the idea of working for a larger company on business software? <span class="red">*</span></p>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="true1" value="true1" checked>
-          <label class="form-check-label" for="exampleRadios1">
-            yes
-          </label>
+        <div class="form-group">
+          <label for="company" class="labels">Do you like the idea of working for a larger company on business software? <span class="red">*</span></label>
+          <br>
+          <select class="form-control" id="large">
+            <option>yes</option>
+            <option>no</option>
+          </select>
         </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="false1" value="false1">
-          <label class="form-check-label" for="exampleRadios2">
-            no
-          </label>
+        <div class="form-group">
+          <label for="enterprise-company" class="labels">Are you interested in working for an enterprise level company or in high-performance applications?<span class="red">*</span></label>
+          <br>
+          <select class="form-control" id="applications">
+            <option>yes</option>
+            <option>no</option>
+          </select>
         </div>
-      </form>
-
-      <form>
-        <p>Are you interested in working for an enterprise level company or in high-performance applications?<span class="red">*</span></p>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="true2" value="true2" checked>
-          <label class="form-check-label" for="exampleRadios1">
-            yes
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="false2" value="false2">
-          <label class="form-check-label" for="exampleRadios2">
-            no
-          </label>
-        </div>
-      </form>
-
-      <form id=lastform>
-        <p>Are you interested in working in a fast-paced agency? <span class="red">*</span></p>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="true3" value="true3" checked>
-          <label class="form-check-label" for="exampleRadios1">
-            yes
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="false3" value="false3">
-          <label class="form-check-label" for="exampleRadios2">
-            no
-          </label>
+        <div class="form-group">
+          <label for="fast-agency" class="labels">Are you interested in working in a fast-paced agency? <span class="red">*</span></label>
+          <br>
+          <select class="form-control" id="fast-paced">
+            <option>yes</option>
+            <option>no</option>
+          </select>
         </div>
        <button type="submit" class="btn btn-primary">Submit</button>
       </form>
      </div>
+       <br>
+       <div class="generate">
 
-      <div class="generate-language">
         <div id="language1">
+        <p>Based on your answers, we suggest you take design classes and learn CSS!</p>
+        </div>
+
+        <div id="language2">
         <p>Based on your answers, we suggest you learn C#!</p>
-       </div>
-     </div>
-      <br>
+        </div>
+
+        <div id="language3">
+        <p>Based on your answers, we suggest you learn Java!</p>
+        </div>
+
+        <div id="language4">
+        <p>Based on your answers, we suggest you learn PHP!</p>
+        </div>
+
+      </div>
   </body>
 </html>
